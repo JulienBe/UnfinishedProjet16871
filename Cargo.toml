@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 bevy = { version = "0.5.0", features = ["dynamic"] } # Remember to revert this before releasing your game! Otherwise you will need to include libbevy_dylib alongside your game if you want it to run
+geo = "0.18.0"
